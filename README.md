@@ -6,6 +6,10 @@ This is an offline electron app for regex101.com.
 
 I'm not affiliated with regex101.com, so I will not provide a regex101's static web source and package, but I will tell you how to create your own.
 
+## Screenshot
+
+![Screenshot](https://cdn.jsdelivr.net/gh/RebornQ/regex101-offline-app/assets/screenshot.png)
+
 ## Where you can get the web source
 
 - [https://github.com/ibaaj/Regex101.com-offline-app](https://github.com/ibaaj/Regex101.com-offline-app)
