@@ -1,0 +1,34 @@
+{
+  "name": "regex101",
+  "version": "1.0.0",
+  "description": "regex101: build, test, and debug regex",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "python SimpleHttpServer.py",
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish"
+  },
+  "keywords": [
+    "regex", "regex101", "node", "nodejs", "electron"
+  ],
+  "author": "Reborn",
+  "license": "MIT",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.0-beta.65",
+    "@electron-forge/maker-deb": "^6.0.0-beta.65",
+    "@electron-forge/maker-rpm": "^6.0.0-beta.65",
+    "@electron-forge/maker-squirrel": "^6.0.0-beta.65",
+    "@electron-forge/maker-zip": "^6.0.0-beta.65",
+    "electron": "^20.0.2"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0",
+    "http-server": "^14.1.1"
+  },
+  "config": {
+    "forge": "./forge.config.js"
+  }
+}
