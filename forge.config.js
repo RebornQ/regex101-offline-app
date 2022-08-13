@@ -10,8 +10,15 @@ module.exports = {
         {
             "name": "@electron-forge/maker-squirrel",
             "config": {
-                "name": "regex101",
+                // "name": "regex101",
                 "setupIcon": "./icon/icon.ico"
+            }
+        },
+        {
+            "name": "@electron-forge/maker-dmg",
+            "config": {
+                // "name": "regex101",
+                "icon": "./icon/icon.icns"
             }
         },
         {
