@@ -2,18 +2,11 @@ const electron = require('electron');
 const {
     app, // 控制应用生命周期的模块
     BrowserWindow, // 创建原生浏览器窗口的模块
-    shell,
-    globalShortcut,
-    dialog,
-    Menu,
-    ipcMain,
 } = electron;
 // 防止在安装过程中程序会多次启动
 if (require('electron-squirrel-startup')) return app.quit();
 const httpServer = require('http-server');
 console.log("httpServer: \n", httpServer.HttpServer);
-// const path = require('path')
-// __dirname + "/public"
 httpServer.createServer({
     root: app.getAppPath() + "/public"
 }).listen(51098);
@@ -32,12 +25,9 @@ function createWindow() {
     mainWindow = new BrowserWindow({
         width: 1280,
         height: 720,
-        // frame: false,
-        // titleBarStyle: 'customButtonsOnHover',
         autoHideMenuBar: true,
         webPreferences: {
             nodeIntegration: true,
-            // preload: path.join(__dirname, 'preload.js'),
         }
     });
 
