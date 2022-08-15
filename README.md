@@ -15,7 +15,7 @@ I'm not affiliated with regex101.com, so I will not provide a regex101's static 
 - [https://github.com/ibaaj/Regex101.com-offline-app](https://github.com/ibaaj/Regex101.com-offline-app)
 - [https://github.com/xuxihai123/regex102](https://github.com/xuxihai123/regex102)
 - ~[https://github.com/xuxihai123/regex101](https://github.com/xuxihai123/regex101)~
-- [https://github.com/RebornQ/regex101](https://github.com/RebornQ/regex101) (I have been fixed the missing files after generate.)
+- [https://github.com/RebornQ/regex101-offline-generator](https://github.com/RebornQ/regex101-offline-generator) fork from [@xuxihai123/regex101](https://github.com/xuxihai123/regex101) (I have been fixed the missing files after generate.)
 - [https://github.com/gaowanliang/regex101-proxy](https://github.com/gaowanliang/regex101-proxy)
 
 > **⚠ Attention: You need to move the web source to `${projectDir}/public` directory! I just use a gitmodule to replace it!**
